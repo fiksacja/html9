@@ -11,40 +11,36 @@
 <body>
     <form action="" method="POST">
         <label for="imie">Imię:</label><br />
-
         <input type="text" name="imie" id="imie"><br />
 
         <label for="nazwisko">Nazwisko:</label><br />
-
         <input type="text" name="nazwisko" id="nazwisko"><br />
 
         <label for="mail">Email:</label><br />
-
         <input type="text" name="mail" id="mail"><br />
 
         <label for="telefon">Telefon:</label><br />
-
         <input type="text" name="telefon" id="telefon"><br />
 
         <label for="miasto">Wybór miasta</label><br>
-        <select name="miasto">
-            <option value="value1">Krakow</option>
-            <option value="value2" selected>Poznan</option>
-            <option value="value3">Warszawa</option>
+        <select name="miasto" id="miasto">
+            <option value="Krakow">Krakow</option>
+            <option value="Poznan" selected>Poznan</option>
+            <option value="Warszawa">Warszawa</option>
         </select><br>
 
-        <label for="plec">Płeć</label><br>
-        <input type="radio" name="plec">Mężczyzna
-        <input type="radio" name="plec">Kobieta<br>
+        <label>Płeć</label><br>
+        <label for="mezczyzna"><input type="radio" name="plec" id="mezczyzna">Mężczyzna</label>
+        <label for="kobieta"><input type="radio" name="plec" id="kobieta">Kobieta<br></label>
 
         <label for="zgoda">Zgoda na dane osobowe</label><br>
-        <input type="checkbox" name="zgoda"><br>
+        <input type="checkbox" name="zgoda" id="zgoda"><br>
 
         <label for="wiadomosc">Wiadomość</label><br>
-        <textarea maxlength="1000" name="wiadomosc"></textarea>
+        <textarea maxlength="1000" name="wiadomosc" id="wiadomosc"></textarea>
 
         <label for="submit">Wiadomość</label><br>
-        <input type="submit" value="Wyślij">
+        <input type="submit" value="Wyślij" id="submit">
     </form>
 </body>
 
